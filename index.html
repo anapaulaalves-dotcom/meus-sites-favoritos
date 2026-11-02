@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilização da página com CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #243b55;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .site {
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+        }
+
+        .site img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+
+        .site h2 {
+            color: #243b55;
+            font-size: 20px;
+        }
+
+        .site a {
+            color: #0077cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .site a:hover {
+            color: #e67e22;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Meus sites favoritos</h1>
+
+    <p>Uma seleção de sites que utilizo para estudar,
+    pesquisar e desenvolver atividades.</p>
+
+    <div class="container">
+
+        <!-- Primeiro site: Google Acadêmico -->
+        <div class="site">
+            <h2>Google Acadêmico</h2>
+            <img src="https://www.google.com/s2/favicons?domain=scholar.google.com&sz=128"
+                 alt="Logo Google Acadêmico">
+            <p>
+                <a href="https://scholar.google.com.br/"
+                   target="_blank">Acessar site</a>
+            </p>
+        </div>
+
+        <!-- Segundo site: SciELO -->
+        <div class="site">
+            <h2>SciELO</h2>
+            <img src="https://www.google.com/s2/favicons?domain=scielo.br&sz=128"
+                 alt="Logo SciELO">
+            <p>
+                <a href="https://www.scielo.br/"
+                   target="_blank">Acessar site</a>
+            </p>
+        </div>
+
+        <!-- Terceiro site: Khan Academy -->
+        <div class="site">
+            <h2>Khan Academy</h2>
+            <img src="https://www.google.com/s2/favicons?domain=khanacademy.org&sz=128"
+                 alt="Logo Khan Academy">
+            <p>
+                <a href="https://pt.khanacademy.org/"
+                   target="_blank">Acessar site</a>
+            </p>
+        </div>
+
+        <!-- Quarto site: Canva -->
+        <div class="site">
+            <h2>Canva</h2>
+            <img src="https://www.google.com/s2/favicons?domain=canva.com&sz=128"
+                 alt="Logo Canva">
+            <p>
+                <a href="https://www.canva.com/"
+                   target="_blank">Acessar site</a>
+            </p>
+        </div>
+
+        <!-- Quinto site: YouTube -->
+        <div class="site">
+            <h2>YouTube</h2>
+            <img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+                 alt="Logo YouTube">
+            <p>
+                <a href="https://www.youtube.com/"
+                   target="_blank">Acessar site</a>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
